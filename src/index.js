@@ -14,7 +14,6 @@ const fourthIcebergList = require('./data/fourth.json');
 const bottomIcebergList = require('./data/bottom.json');
 
 app.get('/', (req, res) => {
-    return res.redirect('https://f.feridinha.com/nCEj0.mp4');
     res.render('main', {
         topIcebergList,
         secondIcebergList,
